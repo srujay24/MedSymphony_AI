@@ -1,9 +1,9 @@
-export default function Home() {
+import Hero from "@/components/landing/Hero";
+
+export default function HomePage() {
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <h1 className="text-5xl font-bold">
-        MedSymphony AI
-      </h1>
+    <main className="min-h-screen bg-[#050816] text-white overflow-hidden">
+      <Hero />
     </main>
   );
 }
